@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wfg-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: wfg-app
+  template:
+    metadata:
+      labels:
+        app: wfg-app
+    spec:
+      containers:
+      - name: wfg-container
+        image: raja1021/wfg-app:latest
+        ports:
+        - containerPort: 8080
