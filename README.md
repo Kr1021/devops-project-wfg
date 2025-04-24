@@ -1,6 +1,6 @@
-# DevOps Project – Cloud-Native CI/CD Platform for WFG (Client)
+# DevOps Project – Cloud-Native CI/CD Platform
 
-This project represents a real-world DevOps implementation of a cloud-native microservices architecture built on AWS for WFG (client project).
+This project represents a real-world DevOps implementation of a cloud-native microservices architecture built on AWS.
 
 ## 🔧 Key Features
 
